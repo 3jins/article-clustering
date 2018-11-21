@@ -1,0 +1,32 @@
+{
+  "name": "article-clustering",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/3jin/article-clustering.git",
+  "author": "Sejin Jeon <jinaidy93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "style": "yarn sass",
+    "dev": "babel-node app.js development",
+    "prod": "babel-node app.js production"
+  },
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-ejs": "^4.1.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}

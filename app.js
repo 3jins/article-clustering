@@ -14,7 +14,7 @@ const app = new Koa();
 const router = new Router();
 
 render(app, {
-  root: staticPath,
+  root: path.join(staticPath, 'view'),
   layout: 'index',
   viewExt: 'ejs',
   cache: false,

@@ -6,7 +6,7 @@
   "author": "Sejin Jeon <jinaidy93@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "style": "yarn sass",
+    "style": "node-sass static/sass --output-style compressed --output static/style",
     "dev": "babel-node app.js development",
     "prod": "babel-node app.js production",
     "test": "babel-node experimental/test.js"
@@ -30,6 +30,7 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "node-sass": "^4.10.0"
   }
 }

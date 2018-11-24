@@ -12,6 +12,7 @@
     "test": "babel-node experimental/test.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "java": "^0.11.0",
     "koa": "^2.6.2",
     "koa-bodyparser": "^4.2.1",
